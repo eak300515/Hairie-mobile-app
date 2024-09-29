@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hairstyle_overlay" type="id" />
+    <item name="hairstyle_recycler_view" type="id" />
+    <item name="camera_surface" type="id" />
+    <item name="capture_button" type="id" />
+    <item name="flip_camera_button" type="id" />
+    <item name="camera_texture_view" type="id" />
+
+        <color name="skin_tone_light">#FAD4C0</color>
+        <color name="skin_tone_medium">#D1A07F</color>
+        <color name="skin_tone_tan">#B5835A</color>
+        <color name="skin_tone_dark">#8D5524</color>
+
+</resources>

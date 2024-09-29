@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308846318390",
+    "project_id": "hairie-17351",
+    "storage_bucket": "hairie-17351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308846318390:android:c3336b016716b9f58dd997",
+        "android_client_info": {
+          "package_name": "com.example.hairie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMNIdNsKBCaw8DICT2pG4wvn0X_G2Et5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

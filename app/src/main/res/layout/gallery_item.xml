@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="125dp">
+
+        <!-- Image for the card -->
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <!-- TextView to display capture message -->
+
+        <!-- Delete button positioned at the top-right corner -->
+
+        <TextView
+            android:id="@+id/capture_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_view"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="43dp"
+            android:layout_toEndOf="@id/image_view"
+            android:text="Hey! Great Click!!"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:background="@null"
+            android:clickable="true"
+            android:contentDescription="Delete"
+            android:src="@drawable/ic_delete" />
+
+        <!-- Save button positioned below the Delete button -->
+        <ImageButton
+            android:id="@+id/save_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/delete_button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@null"
+            android:clickable="true"
+            android:contentDescription="Save"
+            android:src="@drawable/ic_save" />
+
+        <!-- Share button positioned below the Save button -->
+        <ImageButton
+            android:id="@+id/share_button"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@id/save_button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@null"
+            android:clickable="true"
+            android:contentDescription="Share"
+            android:src="@drawable/ic_share" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
