@@ -70,6 +70,10 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation ("androidx.core:core:1.7.0")  // FileProvider support
 
+    implementation ("com.google.ar:core:1.37.0")
+    implementation ("com.google.ar.sceneform.ux:sceneform-ux:1.18.0")
+
+
 
     implementation(libs.vision.common)
     implementation(libs.play.services.mlkit.face.detection)
