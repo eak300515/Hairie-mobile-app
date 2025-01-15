@@ -56,8 +56,6 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-auth:22.1.1")
 
-    // Lottie animations
-    implementation("com.airbnb.android:lottie:6.5.2")
 
     // ML Kit face detection dependency
     implementation ("com.google.mlkit:face-detection:16.1.5")
